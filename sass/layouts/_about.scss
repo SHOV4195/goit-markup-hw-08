@@ -1,14 +1,14 @@
 .about {
    padding-top: 0;
 
-   @media screen and (min-width: 480px) {
-         display: none;;
+   @media screen and (max-width: 1199px) {
+         display: none;
       }
 }
 
 .about__list {
-   // display: flex;
-   // justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
 }
 
 .about__item {
@@ -20,9 +20,9 @@
 }
 
 .about__text {
-   // display: flex;
-   // align-items: center;
-   // justify-content: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    position: absolute;
 
    bottom: 0;

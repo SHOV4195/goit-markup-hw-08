@@ -35,6 +35,13 @@
           <a class="logo link" lang="en" href="index.html"
             >Web<span class="logo--light">Studio</span></a
           >
+          <button type="button" class="menu-button is-open" aria-expanded="false" data-menu-button>
+            <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+              <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
+              <use class="icon-cross" href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <div class="menu">
           <ul class="nav__list list">
             <li class="nav__item nav__item--current">
               <a class="nav__link nav__link--current link" href="">Студия</a>
@@ -65,6 +72,7 @@
             >
           </li>
         </ul>
+        </div>
       </div>
     </header>
     <!-- Header end -->
@@ -672,6 +680,7 @@
     <!-- Modal end -->
 
     <script src="./js/modal.js"></script>
+
     <!-- <script>
       (() => {
         document.querySelector('.js-speaker-form').addEventListener('submit', e => {
@@ -681,5 +690,7 @@
         });
       })();
     </script> -->
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>

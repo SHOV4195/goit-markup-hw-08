@@ -11,9 +11,9 @@
          margin: -15px;
       }
 
-   // @media screen and (min-width: 1200px) {
-   //       margin: -30px;
-   //    }
+   @media screen and (min-width: 1200px) {
+         margin: -30px;
+      }
 }
 
 .features__item {
@@ -58,7 +58,7 @@
    }
 
    @media screen and (min-width: 768px) {
-      width: 354px;
+      width: 356px;
    }
 
    @media screen and (min-width: 1200px) {
@@ -79,10 +79,13 @@
       text-align: center;
    }
 
+   @media screen and (min-width: 768px) {
+      text-align: initial;
+   }
 }
 
 .features__text {
    color: var(--upper-title-text);
    line-height: 1.71;
-   margin-bottom: 10px;
+   // margin-bottom: 10px;
 }

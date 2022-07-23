@@ -529,8 +529,44 @@ body {
   padding: 10px 55px;
 }
 
+.menu-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.menu-button .icon-cross {
+  display: none;
+}
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
 .header {
   border-bottom: 1px solid #ECECEC;
+}
+
+.nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav__list {
@@ -661,6 +697,11 @@ body {
     margin: -15px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .features__list {
+    margin: -30px;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .features__item {
@@ -705,7 +746,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .features__icon {
-    width: 354px;
+    width: 356px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -727,20 +768,33 @@ body {
     text-align: center;
   }
 }
+@media screen and (min-width: 768px) {
+  .features__title {
+    text-align: initial;
+  }
+}
 
 .features__text {
   color: var(--upper-title-text);
   line-height: 1.71;
-  margin-bottom: 10px;
 }
 
 .about {
   padding-top: 0;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1199px) {
   .about {
     display: none;
   }
+}
+
+.about__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .about__item {
@@ -751,6 +805,15 @@ body {
 }
 
 .about__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   bottom: 0;
   width: 100%;
