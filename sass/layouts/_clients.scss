@@ -1,6 +1,6 @@
 .clients__list {
-   display: flex;
-   justify-content: center;
+   // display: flex;
+   // justify-content: center;
 }
 
 .clients__item:not(:last-child) {
@@ -8,9 +8,9 @@
 }
 
 .clients__link {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+   // display: flex;
+   // align-items: center;
+   // justify-content: center;
    width: 170px;
    height: 92px;
    color: var(--color-social-link);
