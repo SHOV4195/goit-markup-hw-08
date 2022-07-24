@@ -94,6 +94,7 @@ body {
 }
 
 .container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -749,7 +750,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .features__item:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -758,7 +759,7 @@ body {
     margin: 15px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .features__item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1013,6 +1014,12 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+
+@media screen and (min-width: 480px) {
+  .address__list {
+    margin-bottom: 60px;
+  }
 }
 
 .address__item:not(:last-child) {

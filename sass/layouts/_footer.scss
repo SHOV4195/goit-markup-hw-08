@@ -18,12 +18,19 @@
       }
 }
 
+
 .footer__address {
    margin-top: 20px;
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
+}
+
+.address__list {
+      @media screen and (min-width: 480px) {
+            margin-bottom: 60px;
+         }
 }
 
 .address__item:not(:last-child) {
