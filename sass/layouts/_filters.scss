@@ -1,7 +1,13 @@
 .filters__list {
-   // display: flex;
-   margin-bottom: 50px;
-   justify-content: center;
+   display: flex;
+   // margin-bottom: 50px;
+   // justify-content: center;
+
+   @media screen and (min-width: 480px) {
+      flex-wrap: wrap;
+      padding-left: 15px;
+      padding-bottom: 25px;
+      }
 }
 
 .filters__item {
@@ -10,6 +16,11 @@
 &:last-child {
    margin-right: 0;
    }
+
+   @media screen and (min-width: 480px) {
+               padding-bottom: 15px;
+            }
+
 }
 
 
