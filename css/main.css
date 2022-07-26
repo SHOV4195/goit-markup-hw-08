@@ -562,6 +562,7 @@ body.modal-open {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  margin: 10px 15px 10px 15px;
   right: 0;
   margin: 0;
   padding: 0;
@@ -611,15 +612,24 @@ body.modal-open {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 }
 
 .header {
   position: relative;
   border-bottom: 1px solid #ECECEC;
+}
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__list {
+  margin-left: 93px;
 }
 
 .nav__item {
@@ -651,11 +661,12 @@ body.modal-open {
   padding-bottom: 32px;
   color: var(--primary-black-color);
   font-weight: 500;
-  line-height: 1.14;
+  line-height: 1.175;
   letter-spacing: 0.02em;
   text-decoration: none;
   -webkit-transition: color var(--timing-function);
   transition: color var(--timing-function);
+  font-size: 40px;
 }
 .nav__link:hover, .nav__link:focus {
   color: var(--accent-color);

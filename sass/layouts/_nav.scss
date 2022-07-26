@@ -5,7 +5,7 @@
 }
 
 .nav__list {
-   // margin-left: 93px;
+   margin-left: 93px;
    // display: flex;
    // align-items: center;
 }
@@ -39,10 +39,13 @@
    padding-bottom: 32px;
    color: var(--primary-black-color);
    font-weight: 500;
-   line-height: 1.14;
+   line-height: calc(47 / 40);
+   // align-items: center;
+
    letter-spacing: 0.02em;
    text-decoration: none;
    transition: color var(--timing-function);
+   font-size: 40px;
 
 &:hover,
 &:focus {
