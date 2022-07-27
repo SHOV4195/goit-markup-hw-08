@@ -1,20 +1,22 @@
 .footer {
-   background-color: #2F303A;
+   text-align: center;
+   background-color: var(--background-hero);
    padding: 60px 0;
 }
 
-.footer__container {
-   display: flex;
-   align-items: baseline;
+// .footer__container {
+//    display: flex;
+//    align-items: baseline;
 
-@media screen and (min-width: 480px) {
-   display: block;
-   }
-}
+// @media screen and (min-width: 480px) {
+//    display: block;
+//    }
+// }
 
 .footer__contact {
    @media screen and (min-width: 480px) {
          text-align: center;
+         margin-bottom: 60px;
       }
 }
 
