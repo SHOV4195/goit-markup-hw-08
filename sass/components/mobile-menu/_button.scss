@@ -1,7 +1,10 @@
 .menu-button {
    position: absolute;
-   display: inline-flex;
-   margin: 10px 15px 10px 15px;
+   display: flex;
+   
+   
+   z-index: 1000;
+  
    right: 0;
    margin: 0;
    padding: 0;
@@ -18,9 +21,32 @@
 
    &.is-open .icon-menu {
       display: none;
+
+   }
+
+   &:focus,
+   &:hover {
+      fill: var(--accent-color);
    }
 
    @media screen and (min-width: 768px) {
       display: none;
+   }
+}
+
+.icon-menu {
+   transition: 500ms;
+
+   .menu-button.is-open & {
+      opacity: 0;
+   }
+}
+
+.icon-cross {
+   opacity: 0;
+   transition: 500ms;
+
+   .menu-button.is-open & {
+      opacity: 1;
    }
 }

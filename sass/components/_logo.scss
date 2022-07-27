@@ -1,9 +1,13 @@
 .logo {
+   display: block;
+   -webkit-box-align: center;
+   padding-top: 16px;
+   padding-bottom: 16px;
    font-family: var(--secondary-font), sans-serif;
    color: var(--accent-color);
    font-weight: 700;
    font-size: 26px;
-   line-height: 1.19;
+   line-height: 1.38;
 
 &--light {
    color: #000000;
