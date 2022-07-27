@@ -4,5 +4,13 @@
 
 .footer__register {
    display: flex;
+
+   @media screen and (min-width: 480px) {
+      display: block;  
+      justify-content: center;
+                    
+      
+   }
+ 
 }
 

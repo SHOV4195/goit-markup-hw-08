@@ -21,5 +21,19 @@
    line-height: calc(20 / 16);
    color: rgba(255, 255, 255, 0.6);
    }
+
+   @media screen and (min-width: 480px) {
+      margin-bottom: 20px;
+      width: 100%;
+      min-height: 50px;
+ 
+      background-color: inherit;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 1.25;
+      color: rgba(255, 255, 255, .6);
+
+      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
 }
 
