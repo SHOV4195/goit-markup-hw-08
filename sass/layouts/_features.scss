@@ -1,70 +1,45 @@
-.features {
-   padding-top: 60px;
-   padding-bottom: 60px;
-}
+
 
 .features__list {
+   --item: 1;
+}
+   
+@media screen and (min-width: 768px) {
+   .features__list {
+      --item: 2;
+   }
+}
 
-   @media screen and (min-width: 768px) {
-         display: flex;
-         flex-wrap: wrap;
-         margin: -15px;
-      }
-
-   @media screen and (min-width: 1200px) {
-         margin: -30px;
-      }
+@media screen and (min-width: 1200px) {
+   .features__list {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+   }
 }
 
 .features__item {
-
-   @media screen and (min-width: 480px) {
-      width: 450px;
-   }
-   
-   @media screen and (min-width: 768px) {
-      width: calc((100% - 2 * 30px) / 2);
-      margin: 15px;
-   }
-
-   &:not(:last-child) {
-      @media screen and (max-width: 767px) {
-         margin-bottom: 15px;
-      }
-   }
-
-   @media screen and (min-width: 1200px) {
-      width: calc((100% - 4 * 30px) / 4);
-      margin: 15px;
-   }
-
-   &:not(:last-child) {
-      @media screen and (max-width: 1199px) {
-      margin-bottom: 30px;
-      }
-   }
+   width: 100%;
 }
 
 .features__icon {
-   display: block;
-   content: "";
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   width: 100%;
    height: 120px;
-   margin-bottom: 30px;
    background-color: var(--secondary-background-color);
+   margin-bottom: 30px;
    padding: 25px 100px;
+}
 
-   @media screen and (min-width: 480px) {
-      width: 450px;
-   }
-
-   @media screen and (min-width: 768px) {
-      width: 356px;
-   }
-
-   @media screen and (min-width: 1200px) {
-      width: 270px;
-   }
-
+.features__icon:not(:last-child) {
+   margin-right: 30px;
 }
 
 .features__title {
@@ -74,15 +49,31 @@
    font-weight: 700;
    font-size: 14px;
    line-height: 1.14;
+}
 
    @media screen and (min-width: 480px) {
-      text-align: center;
+      .features__title {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         justify-content: center;
+      }
    }
 
    @media screen and (min-width: 768px) {
-      text-align: initial;
+      .features__title {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-pack: start;
+         -ms-flex-pack: start;
+         justify-content: flex-start;
+
+      }
    }
-}
+
 
 .features__text {
    color: var(--upper-title-text);

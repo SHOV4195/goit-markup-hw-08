@@ -1,7 +1,7 @@
 :root {
    /* Fonts */
-   --main-font: "Roboto";
-   --secondary-font: "Raleway";
+   --main-font: "Roboto", sans-serif;
+   --secondary-font: "Raleway", sans-serif;
 
    /* Text colors */
    --primary-white-color: #FFFFFF;
@@ -9,13 +9,18 @@
    --accent-color: #2196F3;
    --upper-title-text: #757575;
    --color-social-link: #AFB1B8;
+   --header-logo-color: #000000;
    /* Bg colors */
    --primary-background-color: #E5E5E5;
    --secondary-background-color: #F5F4FA;
    --background-hero: #2F303A;
 
+   /* Btn */
+   --btn-hover-focus: #188ce8;
+
+
    /* Other */
-   --items: 4;
+   --item: 3;
    --indent: 30px;
    --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

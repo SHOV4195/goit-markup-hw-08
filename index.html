@@ -31,7 +31,7 @@
     <!-- Header start -->
     <header class="header">
       <div class="container header__container">
-        <a class="logo link" lang="en" href="index.html"
+        <a class="logo link header__logo" lang="en" href="index.html"
           >Web<span class="logo--light">Studio</span></a
         >
         <button
@@ -121,47 +121,8 @@
           </ul>
         </div>
         <!-- Mobile menu end -->
-      </div>
-    </header>
-
-    <!-- <div class="menu" id="menu" data-menu>
-            <div class="menu__navigation">
-              <ul class="nav__list list">
-                <li class="nav__item nav__item--current">
-                  <a class="nav__link nav__link--current link" href="">Студия</a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link link" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link link" href="">Контакты</a>
-                </li>
-              </ul>
-            </div>
 
         <nav class="nav">
-  
-            <div class="menu__contacts">
-              <ul class="contact list">
-                <li class="contact__item">
-                  <a class="contact__link" href="mailto:info@devstudio.com">
-                    <svg class="contact__icon" height="12px" width="16px">
-                      <use href="./images/icons.svg#icon-envelope"></use>
-                    </svg>
-                    info@devstudio.com</a
-                  >
-                </li>
-                <li class="contact__item">
-                  <a class="contact__link" href="tel:+380961111111">
-                    <svg class="contact__icon" height="16px" width="10px">
-                      <use href="./images/icons.svg#icon-smartphone"></use>
-                    </svg>
-                    +38 096 111 11 11</a
-                  >
-                </li>
-              </ul>
-            </div>
-                <nav>
           <ul class="nav__list list">
             <li class="nav__item nav__item--current">
               <a class="nav__link nav__link--current link" href="">Студия</a>
@@ -173,11 +134,12 @@
               <a class="nav__link link" href="">Контакты</a>
             </li>
           </ul>
-       
+        </nav>
+
         <ul class="contact list">
           <li class="contact__item">
             <a class="contact__link" href="mailto:info@devstudio.com">
-              <svg class="contact__icon" height="12px" width="16px">
+              <svg class="contact__icon mail" height="12px" width="16px">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
@@ -185,55 +147,24 @@
           </li>
           <li class="contact__item">
             <a class="contact__link" href="tel:+380961111111">
-              <svg class="contact__icon" height="16px" width="10px">
+              <svg class="contact__icon tell" height="16px" width="10px">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
             >
           </li>
         </ul>
-         </nav>
-          </div> -->
-    <!-- <nav>
-          <ul class="nav__list list">
-            <li class="nav__item nav__item--current">
-              <a class="nav__link nav__link--current link" href="">Студия</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link link" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link link" href="">Контакты</a>
-            </li>
-          </ul> -->
-
-    <!-- <ul class="contact list"> -->
-    <!-- <li class="contact__item">
-            <a class="contact__link" href="mailto:info@devstudio.com">
-              <svg class="contact__icon" height="12px" width="16px">
-                <use href="./images/icons.svg#icon-envelope"></use>
-              </svg>
-              info@devstudio.com</a
-            >
-          </li>
-          <li class="contact__item">
-            <a class="contact__link" href="tel:+380961111111">
-              <svg class="contact__icon" height="16px" width="10px">
-                <use href="./images/icons.svg#icon-smartphone"></use>
-              </svg>
-              +38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-         </nav> -->
-    <!-- Header end -->
-
+      </div>
+    </header>
     <!-- Main start -->
     <main>
       <!-- Hero start -->
       <section class="hero hero--overlay">
         <div class="container">
-          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="hero__title">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
           <button class="btn hero__btn" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
@@ -242,9 +173,9 @@
       <!-- Features start -->
       <section class="features section">
         <div class="container">
-          <h2 class="features__title title visually-hidden">Особенности</h2>
-          <ul class="features__list list">
-            <li class="features__item">
+          <h2 class="visually-hidden">Особенности</h2>
+          <ul class="features__list list card-set">
+            <li class="features__item card-set__item">
               <svg class="features__icon">
                 <use href="./images/icons.svg#icon-Group"></use>
               </svg>
@@ -253,7 +184,7 @@
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="features__item">
+            <li class="features__item card-set__item">
               <svg class="features__icon">
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
@@ -262,7 +193,7 @@
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="features__item">
+            <li class="features__item card-set__item">
               <svg class="features__icon">
                 <use href="./images/icons.svg#icon-diagram"></use>
               </svg>
@@ -271,7 +202,7 @@
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="features__item">
+            <li class="features__item card-set__item">
               <svg class="features__icon">
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
@@ -325,15 +256,34 @@
       <!-- Team start -->
       <section class="team section">
         <div class="container">
-          <h2 class="team_title title">Наша команда</h2>
-          <ul class="team__list list">
-            <li class="team__item">
-              <img
-                class="team__avatar"
-                src="./images/Team/img-1.jpeg"
-                alt="Игорь Демьяненко"
-                width="270"
-              />
+          <h2 class="team__title title">Наша команда</h2>
+          <ul class="team__list list card-set">
+            <li class="card card-set__item">
+              <picture class="card__img img">
+                <source
+                  media="(min-width: 1200px)"
+                  src="./images/Team/img-desc-1.jpg 1x, ./images/Team/img-desc-1@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  src="./images/Team/img-tab-1.jpg 1x, ./images/Team/img-tab-1@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  src="./images/Team/img-mob-1.jpg 1x, ./images/Team/img-mob-1@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  class="img"
+                  src="./images/Team/img-mob-1.jpg"
+                  alt="Игорь Демьяненко"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+
               <div class="team__wrapper">
                 <h3 class="team__subtitle">Игорь Демьяненко</h3>
                 <p class="team__position" lang="en">Product Designer</p>
@@ -389,13 +339,31 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item">
-              <img
-                class="team__avatar"
-                src="./images/Team/img-2.jpeg"
-                alt="Ольга Репина"
-                width="270"
-              />
+            <li class="card card-set__item">
+              <picture class="card__img img">
+                <source
+                  media="(min-width: 1200px)"
+                  src="./images/Team/img-desc-2.jpg 1x, ./images/Team/img-desc-2@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  src="./images/Team/img-tab-2.jpg 1x, ./images/Team/img-tab-2@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  src="./images/Team/img-mob-2.jpg 1x, ./images/Team/img-mob-2@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  class="img"
+                  src="./images/Team/img-mob-2.jpg"
+                  alt="Ольга Репина"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <div class="team__wrapper">
                 <h3 class="team__subtitle">Ольга Репина</h3>
                 <p class="team__position" lang="en">Frontend Developer</p>
@@ -451,13 +419,32 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item">
-              <img
-                class="team__avatar"
-                src="./images/Team/img-3.jpeg"
-                alt="Николай Тарасов"
-                width="270"
-              />
+            <li class="card card-set__item">
+              <picture class="card__img img">
+                <source
+                  media="(min-width: 1200px)"
+                  src="./images/Team/img-desc-3.jpg 1x, ./images/Team/img-desc-3@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  src="./images/Team/img-tab-3.jpg 1x, ./images/Team/img-tab-3@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  src="./images/Team/img-mob-3.jpg 1x, ./images/Team/img-mob-3@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  class="img"
+                  src="./images/Team/img-mob-3.jpg"
+                  alt="Николай Тарасов"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+
               <div class="team__wrapper">
                 <h3 class="team__subtitle">Николай Тарасов</h3>
                 <p class="team__position" lang="en">Marketing</p>
@@ -513,13 +500,32 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item">
-              <img
-                class="team__avatar"
-                src="./images/Team/img-4.jpeg"
-                alt="Михаил Ермаков"
-                width="270"
-              />
+            <li class="card card-set__item">
+              <picture class="card__img img">
+                <source
+                  media="(min-width: 1200px)"
+                  src="./images/Team/img-desc-4.jpg 1x, ./images/Team/img-desc-4@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  src="./images/Team/img-tab-4.jpg 1x, ./images/Team/img-tab-4@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  src="./images/Team/img-mob-4.jpg 1x, ./images/Team/img-mob-4@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  class="img"
+                  src="./images/Team/img-mob-4.jpg"
+                  alt="Михаил Ермаков"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+
               <div class="team__wrapper">
                 <h3 class="team__subtitle">Михаил Ермаков</h3>
                 <p class="team__position" lang="en">UI Designer</p>
@@ -584,8 +590,8 @@
       <section class="clients section">
         <div class="container">
           <h2 class="clients__title title">Постоянные клиенты</h2>
-          <ul class="clients__list list">
-            <li class="clients__item">
+          <ul class="clients__list list card-set">
+            <li class="clients__item card-set__item">
               <a
                 class="clients__link"
                 href=""
@@ -597,7 +603,7 @@
                   <use href="./images/icons.svg#icon-Logo-1"></use></svg
               ></a>
             </li>
-            <li class="clients__item">
+            <li class="clients__item card-set__item">
               <a
                 class="clients__link"
                 href=""
@@ -609,7 +615,7 @@
                   <use href="./images/icons.svg#icon-Logo-2"></use></svg
               ></a>
             </li>
-            <li class="clients__item">
+            <li class="clients__item card-set__item">
               <a
                 class="clients__link"
                 href=""
@@ -621,7 +627,7 @@
                   <use href="./images/icons.svg#icon-Logo-3"></use></svg
               ></a>
             </li>
-            <li class="clients__item">
+            <li class="clients__item card-set__item">
               <a
                 class="clients__link"
                 href=""
@@ -633,7 +639,7 @@
                   <use href="./images/icons.svg#icon-Logo-4"></use></svg
               ></a>
             </li>
-            <li class="clients__item">
+            <li class="clients__item card-set__item">
               <a
                 class="clients__link"
                 href=""
@@ -645,7 +651,7 @@
                   <use href="./images/icons.svg#icon-Logo-5"></use></svg
               ></a>
             </li>
-            <li class="clients__item">
+            <li class="clients__item card-set__item">
               <a
                 class="clients__link"
                 href=""
