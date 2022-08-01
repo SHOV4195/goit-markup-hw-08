@@ -17,6 +17,8 @@
    cursor: pointer;
    transition: fill var(--timing-function);
 
+   z-index: 1000;
+
 &:hover {
    fill: var(--accent-color);
    }

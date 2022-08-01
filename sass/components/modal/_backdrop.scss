@@ -12,7 +12,8 @@
 
    transition: opacity var(--timing-function);
 
-   @media screen and (min-width: 999) {
+   @media screen and (min-width: 480px) {
+      z-index: 1500;
    }
 }
 

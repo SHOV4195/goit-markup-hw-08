@@ -31,9 +31,10 @@
     <!-- Header start -->
     <header class="header">
       <div class="container header__container">
-        <a class="logo link" lang="en" href="index.html"
+        <a class="logo link header__logo" lang="en" href="index.html"
           >Web<span class="logo--light">Studio</span></a
         >
+        <!-- Mobile menu button start -->
         <button
           type="button"
           class="menu-button"
@@ -46,6 +47,7 @@
             <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
           </svg>
         </button>
+        <!-- Mobile menu button end -->
         <!-- Mobile menu start -->
         <div class="menu" id="menu" data-menu>
           <ul class="mobile__nav list">
@@ -121,6 +123,39 @@
           </ul>
         </div>
         <!-- Mobile menu end -->
+
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link link" href="./index.html">Студия</a>
+            </li>
+            <li class="nav__item nav__item--current">
+              <a class="nav__link nav__link--current link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contact list">
+          <li class="contact__item">
+            <a class="contact__link" href="mailto:info@devstudio.com">
+              <svg class="contact__icon mail" height="12px" width="16px">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contact__item">
+            <a class="contact__link" href="tel:+380961111111">
+              <svg class="contact__icon tell" height="16px" width="10px">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <!-- Header end -->
@@ -531,14 +566,14 @@
 
     <!-- Footer start -->
     <footer class="footer">
-      <div class="container footer__container">
+      <div class="container footer__list">
         <div class="footer__contact">
-          <a class="logo link" lang="en" href="index.html"
+          <a class="logo footer__logo link" lang="en" href="index.html"
             >Web<span class="logo--dark">Studio</span></a
           >
-          <address class="footer__address address">
-            <ul class="address__list list">
-              <li class="address__item">
+          <address class="">
+            <ul class="address list">
+              <li class="">
                 <a
                   class="address__link link"
                   href="https://goo.gl/maps/THVWduqA6z6FaJsg8"
@@ -547,10 +582,10 @@
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="address__item">
+              <li class="">
                 <a class="address__aut link" href="mailto:info@example.com">info@example.com</a>
               </li>
-              <li class="address__item">
+              <li class="">
                 <a class="address__aut link" href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
@@ -558,7 +593,7 @@
         </div>
         <div class="footer__social">
           <p class="footer__title">Присоединяйтесь</p>
-          <ul class="social-media list">
+          <ul class="social-media footer__social-media list">
             <li class="social-media__item">
               <a
                 class="social-media__link social-media__link--color"

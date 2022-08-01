@@ -5,8 +5,8 @@
 
    padding: 40px;
 
-   width: 528px;
-   height: 581px;
+   min-width: 450px;
+   min-height: 609px;
 
 
    background-color: var(--primary-white-color);
@@ -21,3 +21,4 @@
    @media screen and (max-width: 767px) {
       width: calc(100% - 30px);
    }
+}
