@@ -1,8 +1,6 @@
 .menu-button {
    position: absolute;
    display: flex;
-
-   z-index: 500;
   
    right: 0;
    margin: 0;
@@ -10,6 +8,7 @@
    border: none;
    
    background-color: transparent;
+   z-index: 100;
 
    & .icon-cross {
       display: none;
@@ -17,6 +16,7 @@
 
    &.is-open .icon-cross {
       display: block;
+   
    }
 
    &.is-open .icon-menu {
@@ -50,3 +50,4 @@
       opacity: 1;
    }
 }
+

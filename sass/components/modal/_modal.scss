@@ -4,6 +4,8 @@
    left: 50%;
    width: 320px;
 
+   z-index: 1000;
+
    background-color: var(--primary-white-color);
 
    transform: translate(-50%, -50%) scale(1);
