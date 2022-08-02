@@ -2,26 +2,39 @@
    background-color: var(--background-hero);
    text-align: center;
    padding: 200px 0;
+   max-width: 1600px;
 }
 
 .hero__title {
    margin-bottom: 30px;
    font-weight: 900;
+   font-size: 26;
+   line-height: 1.61;
    text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
    color: var(--primary-white-color);
 
+   @media screen and (max-width: 479px) {
+      width: 300px;
+      margin: auto;
+      margin-bottom: 30px;
+      }
 
    
    @media screen and (min-width: 480px) {
       font-size: 26px;
-      line-height: 1.61;
+      width: 360px;
+      margin: auto;
+      margin-bottom: 30px;
       }
 
    @media screen and (min-width: 1200px) {
       font-size: 44px;
       line-height: 1.77;
+      width: 696px;
+      margin: auto;
+      margin-bottom: 30px;
    }
 }
 

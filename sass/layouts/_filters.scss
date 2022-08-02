@@ -3,6 +3,7 @@
    flex-wrap: wrap;
    margin-bottom: 40px;
    gap: 8px;
+   row-gap: 15px;
 
 
    @media screen and (min-width: 768px) {
@@ -23,11 +24,6 @@
 &:last-child {
    margin-right: 0;
    }
-
-   @media screen and (min-width: 480px) {
-               padding-bottom: 15px;
-            }
-
 }
 
 
