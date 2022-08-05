@@ -1,14 +1,15 @@
 .menu-button {
-   position: absolute;
+   position: relative;
    display: flex;
   
    right: 0;
    margin: 0;
-   padding: 10px 10px;
+   margin-left: auto;
+  
    border: none;
    
    background-color: transparent;
-   z-index: 100;
+   z-index: 500;
 
    & .icon-cross {
       display: none;
