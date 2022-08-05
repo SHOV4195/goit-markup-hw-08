@@ -661,6 +661,12 @@ body.modal-open {
     line-height: 1.1666666667;
   }
 }
+@media screen and (min-width: 1200px) {
+  .checkbox__agreement {
+    font-size: 14px;
+    line-height: 1.7142857143;
+  }
+}
 
 .checkbox__policity {
   -webkit-text-decoration-line: underline;
@@ -1032,11 +1038,11 @@ body.modal-open {
   color: var(--accent-color);
 }
 @media screen and (min-width: 1200px) {
-  .contact__link:not(:last-child) {
+  .contact__link {
     padding-top: 32px;
     padding-bottom: 32px;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.1428571429;
   }
 }
 
